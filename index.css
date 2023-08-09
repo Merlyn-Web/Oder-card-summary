@@ -1,0 +1,133 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-card {
+    width: 320px;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.illustration-hero {
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.p1 {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    width: 90%;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.abonnement {
+    margin-left: 20px;
+}
+
+.delai-plan {
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.about-plan {
+    margin-left: auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about-plan {
+    color: hsl(245, 75%, 52%);
+}
+
+.buttonpay {
+    margin-top: 25px;
+    width: 90%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px hsl(266, 48%, 46%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel {
+    margin-top: 30px;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+h1,
+.delai-plan,
+.about-plan,
+.buttonpay,
+.cancel,
+.attribution {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+.about-plan:active {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.buttonpay:active {
+    opacity: 0.7;
+}
+
+.cancel:active {
+    color: hsla(233, 20%, 16%, 0.966);
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-color: hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
